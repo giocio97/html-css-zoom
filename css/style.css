@@ -1,0 +1,41 @@
+body{
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+    /* intestazione */
+    header{
+        display: flex;
+        height: 50px;
+        background-color: rgb(0, 0, 0);
+        justify-content:flex-end;
+    }
+
+    #speaker-view,  #full-screen{
+        padding: 10px;
+        background-color: rgb(141, 141, 141);
+        border-radius: 5px;
+        display: block;
+        height: 40px;
+        font-size: 20px;
+        text-align: center;
+        margin: 5px 5px
+    }
+
+ 
+        
+
+/* 
+main{
+    background-color: black;
+    overflow: scroll;
+} */
