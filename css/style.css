@@ -1,5 +1,6 @@
 body{
     color: white;
+    font-size: 18px;
 }
 
 *{
@@ -64,9 +65,37 @@ footer{
 
 footer .item .elementi i {
     font-size: 30px;
+    vertical-align: middle;
 }
 
 .angle{
     font-size: 18px;
     
+}
+
+#share{
+    color: rgb(18, 190, 18);
+}
+
+
+footer .item nav{
+    width: 90%;
+}
+footer .item nav ul{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+
+footer .item nav ul li{
+    margin-right: 10px;
+}
+
+
+footer .item nav ul i{
+    font-size: 30px;
+    vertical-align: middle;
 }
